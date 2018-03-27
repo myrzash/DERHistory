@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="@dimen/width_description"
+        android:layout_height="@dimen/height_description"
+        android:layout_gravity="center"
+        android:background="@drawable/sign_in_white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_high" >
+
+        <TextView
+            android:id="@+id/textViewTitleReg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/padding_small_extra"
+            android:textSize="@dimen/text_size_normal" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextViewUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_small"
+            android:drawableLeft="@drawable/ic_user"
+            android:gravity="center"
+            android:inputType="textPersonName"
+            android:maxLength="16"
+            android:singleLine="true" >
+        </AutoCompleteTextView>
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_small"
+            android:drawableLeft="@drawable/ic_pass"
+            android:gravity="center"
+            android:inputType="textPassword"
+            android:maxLength="16"
+            android:singleLine="true" >
+        </EditText>
+
+        <EditText
+            android:id="@+id/editTextConfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/padding_small"
+            android:drawableLeft="@drawable/ic_action_repeat"
+            android:gravity="center"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:maxLength="16"
+            android:singleLine="true"
+            android:visibility="visible" >
+        </EditText>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/padding_small" >
+
+            <Button
+                android:id="@+id/buttonSubmit"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp" />
+
+            <TextView
+                android:id="@+id/textViewForgotPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal|bottom" />
+
+            <ToggleButton
+                android:id="@+id/toggleBtnRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_gravity="right"
+                android:background="@drawable/toggle"
+                android:button="@null"
+                android:checked="false"
+                android:textColor="@android:color/white" />
+        </FrameLayout>
+    </LinearLayout>
+
+</FrameLayout>

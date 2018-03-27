@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="kz.nis.history"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="kz.nis.history.SplashActivity"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="kz.nis.history.ActivityInput"
+            android:screenOrientation="landscape"
+            android:theme="@style/ThemeInput"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="kz.nis.history.Main"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="kz.nis.history.ActivityPlay"
+            android:screenOrientation="landscape" >
+        </activity>
+        <activity
+            android:name="kz.nis.history.ActivityUsers"
+            android:screenOrientation="landscape"
+            android:theme="@style/ThemeDialog" >
+        </activity>
+        <activity
+            android:name="kz.nis.history.ActivityList"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+    </application>
+
+</manifest>

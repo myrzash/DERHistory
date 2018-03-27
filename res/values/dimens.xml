@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="width_item_list_number">50dp</dimen>
+    <dimen name="max_height_button_answer">90dp</dimen>
+    <dimen name="max_width_button_answer">486dp</dimen>
+    <dimen name="max_height_text_question">120dp</dimen>
+    <dimen name="max_width_text_question">900dp</dimen>
+    <dimen name="shadow_padding_item">2dp</dimen>
+    <dimen name="min_width_editor">700dp</dimen>
+    <dimen name="min_height_editor">600dp</dimen>
+    <dimen name="max_width_btns_main">220dp</dimen>
+    <dimen name="max_height_btns_main">160dp</dimen>
+    <dimen name="max_width_btn_start">160dp</dimen>
+    <dimen name="max_height_btn_start">100dp</dimen>
+    <dimen name="height_progressbar">300dp</dimen>
+    <dimen name="padding_normal">30dp</dimen>
+    <dimen name="padding_normal_extra">50dp</dimen>
+    <dimen name="padding_normal_smaller">20dp</dimen>
+    <dimen name="padding_high">60dp</dimen>
+    <dimen name="padding_high_extra">100dp</dimen>
+    <dimen name="padding_small">10dp</dimen>
+    <dimen name="padding_small_extra">5dp</dimen>
+    <dimen name="text_size_high_extra">60sp</dimen>
+    <dimen name="text_size_high">36sp</dimen>
+    <dimen name="text_size_normal">24sp</dimen>    
+    <dimen name="text_size_normal2">20sp</dimen>
+    <dimen name="text_size_normal_extra">28sp</dimen>
+    <dimen name="text_size_small">16sp</dimen>
+    <dimen name="height_description">400dp</dimen>
+    <dimen name="width_description">500dp</dimen>
+
+</resources>

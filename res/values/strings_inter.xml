@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- REGISTRATION -->
+    <string name="username_is_too_short">{0,choice,0#Логин тым қысқа | 1#Логин слишком короткий | 2#Username is too short}</string>
+    <string name="password_is_too_short">{0,choice,0#Құпиясөз тым қысқа  | 1#Пароль слишком короткий | 2#Password is too short}</string>
+    <string name="toast_exit">{0,choice,0#Шығу үшін бір рет шертіңіз | 1#Нажмите еще раз чтобы выйти | 2#Press again to exit }</string> <!-- "Press once again to exit!" -->
+    <string name="no_user">{0,choice,0#Қолданушылар тізімі бос | 1#Список пользователей пуст | 2#Is empty }</string>
+    <string name="user_name">{0,choice,0#Қолданушы аты | 1#Имя пользователя | 2#User name }</string>
+    <string name="confirm_password">{0,choice,0#Құпиясөзді растау | 1#Подтверждение пароля | 2#Confirm password }</string>
+    <string name="password">{0,choice,0#Құпиясөз | 1#Пароль | 2#Password }</string>
+    <string name="pswd1_pswd2_not_correct">{0,choice,0#Құпиясөздер сәйкес емес | 1#Пароли не совпадают | 2#The passwords do not match }</string>
+    <string name="user_exists">{0,choice,0#Мұндай қолданушы бар | 1#Такой пользователь существует | 2#This user exists }</string>
+    <string name="user_not_found">{0,choice,0#Қолданушы табылған жоқ | 1#Пользователь не найден | 2#User not found }</string>
+    <string name="password_incorrect">{0,choice,0#Құпиясөз дұрыс емес | 1#Пароль не правильный | 2#The password is not correct }</string>
+    <string name="forgot_password">{0,choice,0#Құпиясөзді ұмыттыңыз ба? | 1#Забыли пароль? | 2#Forgot password? }</string>
+    <string name="sign_up">{0,choice,0#Тiркелу | 1#Регистрация | 2#Sign up }</string>
+    <string name="cancel">{0,choice,0#Жабу | 1#Отмена | 2#Cancel }</string>
+    <string name="sign_in">{0,choice,0#Kipy | 1#Вход | 2#Log in }</string>
+    <!-- Main -->
+    <string name="select_category">{0,choice,0#Санатты таңдаңыз | 1#Выберите категорию | 2#Select a category }</string>
+
+    <string-array name="Categories">
+        <item>{0,choice,0#Ежелгі Қазақстан | 1#Древний Казахстан | 2#The ancient Kazakhstan}</item>
+        <item>{0,choice,0#Ортағасырлар тарихы | 1#Средневековая история | 2#Medieval History}</item>
+        <item>{0,choice,0#Қазақ хандығы | 1#Казахское ханство | 2#Kazakh Khanate}</item>
+        <item>{0,choice,0#XVII-XX ғғ. Қазақстан | 1#Казахстан c XVII по XX век | 2#Kazakhstan from the XVII to XIX century}</item>
+        <item>{0,choice,0#Тәуелсіз Қазақстан | 1#Независимый Казахстан | 2#Independent Kazakhstan}</item>
+    </string-array>
+    <!-- Editor -->
+    <!-- <string name="delete">Удалить?</string> -->
+    <string name="question">{0,choice,0#Сұрақ | 1#Вопрос | 2#Question }</string>
+    <string name="answerCorrect">{0,choice,0#Дұрыс жауабы | 1#Правильный вариант | 2#Correct version }</string>
+    <string name="answer2">{0,choice,0#2 нұсқа | 1#2 вариант | 2#2 version }</string>
+    <string name="answer3">{0,choice,0#3 нұсқа | 1#3 вариант | 2#3 version }</string>
+    <string name="answer4">{0,choice,0#4 нұсқа | 1#4 вариант | 2#4 version }</string>
+    <string name="answer5">{0,choice,0#5 нұсқа | 1#5 вариант | 2#5 version }</string>
+    <string name="selected">{0,choice,0#Таңдалғаны: | 1#Выбрано: | 2#Joined: }</string>
+    <string name="all">{0,choice,0#Барлығы: | 1#Всего: | 2#Total: }</string>
+    <string name="answer">{0,choice,0#Жауабы: | 1#Ответ: | 2#Answer: }</string>
+    <string name="add">{0,choice,0#Қосу | 1#Добавить | 2#Add }</string>
+    <string name="save">{0,choice,0#Сақтау | 1#Сохранить | 2#Save }</string>
+    <!-- USERS -->
+    <string name="user_list_is_empty">{0,choice,0#Қолданушылар тізімі бос | 1#Список пользователей пуст | 2#List is empty }</string>
+    <string name="users">{0,choice,0#Қолданушылар | 1#Пользователи | 2#Users }</string>    
+       <string name="best_result">{0,choice,0#Үздік нәтиже| 1#Лучший результат| 2#Best result}</string>
+    <!-- <string name="enter_name">{0,choice,0#кіру | 1#Введите имя: | 2#enter }</string> -->
+    <string name="fio">{0,choice,0#Аты | 1#Имя | 2#Name }</string>
+    <string name="level">{0,choice,0#Деңгей | 1#Уровень | 2#Level }</string>
+    <!-- TOAST -->
+    <string name="toast_saved">{0,choice,0#Сақталынды | 1#Сохранено | 2#Saved }</string>
+    <!-- <string name="toast_deleted">{0,choice,0#кіру | 1#Удалено | 2#enter }</string> -->
+    <string name="toast_necessary">{0,choice,0#Қажет сұрақтар саны | 1#Необходимо вопросов | 2#enter }</string>
+    <!-- Play -->
+    <string name="you_win">{0,choice,0#Сіз жеңдіңіз | 1#Вы выиграли | 2#You win }</string>
+    <string name="exit_game">{0,choice,0#Шығуды қалайсыз ба?| 1#Покинуть игру?| 2#Quit game?}</string>
+    <string name="result">{0,choice,0#Нәтиже| 1#Результат| 2#Result}</string>
+    <string name="time_is_over">{0,choice,0#Уақыт таусылды| 1#Время вышло| 2#Time is over}</string>
+    <string name="restart">{0,choice,0#Қайта бастау| 1#Начать заново| 2#Start again}</string>
+    <string name="main_menu">{0,choice,0#Бас мәзір| 1#Главное Меню| 2#Main Menu}</string>
+
+    <string-array name="Levels">
+        <item>{0,choice,0#Шаруа | 1#Крестьянин | 2#Farmer}</item>
+        <item>{0,choice,0#Сарбаз | 1#Воин | 2#Warrior}</item>
+        <item>{0,choice,0#Әскербасы | 1#Военачальник | 2#Warlord}</item>
+        <item>{0,choice,0#Уәзір | 1#Советник | 2#Advisor}</item>
+        <item>{0,choice,0#Хан | 1#Хан | 2#Khan}</item>
+    </string-array>
+    <!-- <string name="user">{0,choice,0#кіру | 1#Пользователь | 2#enter }</string> -->
+
+</resources>

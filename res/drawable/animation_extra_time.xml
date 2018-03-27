@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:drawable="@drawable/time_extra_00"
+        android:duration="@integer/duration_animation_extra_time_first_piece"/>
+    <item
+        android:drawable="@drawable/time_extra_01"
+        android:duration="@integer/duration_animation_extra_time_second_piece"/>
+    <item
+        android:drawable="@drawable/time_extra_02"
+        android:duration="@integer/duration_animation_extra_time_one_piece"/>
+    <item
+        android:drawable="@drawable/time_extra_03"
+        android:duration="@integer/duration_animation_extra_time_one_piece"/>
+    <item
+        android:drawable="@drawable/time_extra_04"
+        android:duration="@integer/duration_animation_extra_time_one_piece"/>
+    <item
+        android:drawable="@drawable/time_extra_05"
+        android:duration="@integer/duration_animation_extra_time_one_piece"/>
+    <item
+        android:drawable="@drawable/time_extra_06"
+        android:duration="@integer/duration_animation_extra_time_one_piece"/>
+    <item
+        android:drawable="@drawable/time_extra_07"
+        android:duration="@integer/duration_animation_extra_time_one_piece"/>
+    <item
+        android:drawable="@drawable/time_extra_08"
+        android:duration="@integer/duration_animation_extra_time_one_piece"/>
+    <item
+        android:drawable="@drawable/time_extra_09"
+        android:duration="@integer/duration_animation_extra_time_one_piece"/>
+    <item
+        android:drawable="@drawable/time_extra_10"
+        android:duration="@integer/duration_animation_extra_time_one_piece"/>
+    <item
+        android:drawable="@drawable/time_extra_11"
+        android:duration="@integer/duration_animation_extra_time_one_piece"/>
+
+</animation-list>

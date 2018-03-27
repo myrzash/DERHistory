@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    android:minHeight="@dimen/min_height_editor"
+    android:minWidth="@dimen/min_width_editor"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editTextQuestion"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/padding_small_extra"
+        android:layout_weight="1"
+        android:singleLine="true" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextAnswer1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/padding_small_extra"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/redaktor_ribbon"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/editTextAnswer2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/padding_small_extra"
+        android:layout_weight="1"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/editTextAnswer3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/padding_small_extra"
+        android:layout_weight="1"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/editTextAnswer4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/padding_small_extra"
+        android:layout_weight="1"
+        android:imeOptions="actionDone"
+        android:singleLine="true" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/padding_small" >
+
+        <Button
+            android:id="@+id/buttonOk"
+            style="@style/StyleBtnOk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/buttonCancel"
+            style="@style/StyleBtnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right" />
+    </FrameLayout>
+
+</LinearLayout>

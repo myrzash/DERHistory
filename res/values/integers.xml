@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="duration_animation_time_one_piece">2000</integer>
+     <integer name="duration_animation_time_first_piece">4000</integer>
+      <integer name="duration_animation_time_second_piece">3000</integer>
+      
+       <integer name="duration_animation_extra_time_one_piece">1000</integer>
+       <integer name="duration_animation_extra_time_first_piece">3000</integer>
+       <integer name="duration_animation_extra_time_second_piece">2000</integer>
+</resources>
